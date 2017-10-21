@@ -1,0 +1,24 @@
+{
+    "name": "cmachu/carl",
+    "type": "framework",
+    "description": "Simplest PHP Console framework",
+    "keywords": ["framework","php","console"],
+    "homepage": "https://github.com/cmachu/Carl",
+    "authors": [
+        {
+            "name": "Paweł Ćmachowski",
+            "email": "pawel.cmachowski@gmail.com",
+            "homepage": "http://cmachowski.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+	},
+    "autoload":{
+        "psr-4": {
+            "Core\\": "Core",
+            "App\\": "App"
+        }
+
+    }
+}
